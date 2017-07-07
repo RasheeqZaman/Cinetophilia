@@ -1,0 +1,32 @@
+		Primary
+____________________________________
+
+1. Plenty Video.
+2. Trailer.
+3. Cast Bios, General Info.
+4. Category
+	4.1. Classic
+	4.2. Upcoming
+	4.3. Now Showing
+5. Actor
+	5.1 Celebrity Gossip
+6. Daily Quotes.
+7. Rating/Stars.
+8. Reviews/Comments.
+9. Celebrity Database.
+
+
+		Secondary
+_____________________________________
+
+1. Movie of the day.
+2. Torrent links.
+3. Logo.
+
+
+		Extra
+_____________________________________
+
+1. Online ticket purchase.
+2. TV Shows.
+3. User wishlist.
