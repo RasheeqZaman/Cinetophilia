@@ -1,0 +1,5 @@
+@font-face { font-family: Delicious; src: url('er.otf'); } 
+
+h1{
+	font-family: Delicious, sans-serif;
+}
