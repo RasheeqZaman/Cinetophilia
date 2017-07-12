@@ -1,0 +1,118 @@
+body{
+	background-color: #ffffff;
+}
+table {
+    /*border-collapse: collapse;*/
+    width: 600px;
+}
+
+td, th {
+	padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.select_field {
+    background-color: #FFF;
+    display: inline-block;
+    position: relative;
+}
+.select_field:after {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    z-index: 5;
+ }
+ select option
+ {  
+ 	margin: 40px;
+    color: transparent;
+    text-shadow: #000;
+ }
+select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #77;
+    background-color: transparent;
+    border-radius: 3px;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #CCC;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3,25%);
+  justify-content: center;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+
+.itema{
+  grid-column: 1 / 5;
+}
+
+.itemb{
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+}
+
+.itemc{
+  grid-column: 3 / 5;
+}
+
+.itema h3
+{
+	background-color:  yellow;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+
+}
+.box table
+{
+	width: inherit;
+	height: inherit;
+  border: 3px solid blue;
+}
+.itemb h3
+{
+	background-color:  red;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+.itemc h3
+{
+    background-color:  blue;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
