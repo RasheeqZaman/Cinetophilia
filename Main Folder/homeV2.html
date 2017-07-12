@@ -5,9 +5,8 @@
 	<link rel="stylesheet" href="CSS/stylesHomeV2.css">
 </head>
 <body>
-
   <header>
-    <h1 style=" font-size: 80px; color: #EFEFEF; padding: 30px">Cinetophilia</h1>
+    <h1 style=" font-size: 70px; color: #EFEFEF; padding: 30px;">Cinetophilia</h1>
     <ul>
   		<li><a href="about.asp">Upcoming</a></li>
   		<li><a href="about.asp">Top Rated</a></li>
@@ -27,7 +26,33 @@
 	</ul>
   </header>
 
-  <h3>Less important heading here</h3>
-  <p>Some additional information here.</p>
+  	<div class="slideshow-container">
+  		<div class="mySlides fade">
+    		<img src="img1.jpg" style="width:100%">
+    		<div class="text">Aynabaji</div>
+  		</div>
+
+  		<div class="mySlides fade">
+    		<img src="img2.jpg" style="width:100%">
+    		<div class="text">Spider-Man : Homecoming</div>
+  		</div>
+
+  		<div class="mySlides fade">
+    		<img src="img3.jpg" style="width:100%">
+    		<div class="text">Jab Harry Met Sejal</div>
+  		</div>
+
+  		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div style="text-align:center">
+  		<span class="dot" onclick="currentSlide(1)"></span> 
+  		<span class="dot" onclick="currentSlide(2)"></span> 
+  		<span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+	<h3>Less important heading here</h3>
+	<p>Some additional information here.</p>
+	<script src="JS/scriptHomeV2.js"></script>
 </body>
 </html>
