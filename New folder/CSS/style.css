@@ -1,0 +1,38 @@
+body{
+	background-color: #f1f1f1;
+}
+table {
+    /*border-collapse: collapse;*/
+    width: 600px;
+}
+
+td, th {
+	padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.select_field {
+    background-color: #FFF;
+    display: inline-block;
+    position: relative;
+}
+.select_field:after {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    z-index: 5;
+ }
+ select option
+ {  
+ 	margin: 40px;
+    color: transparent;
+    text-shadow: #000;
+ }
+select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #77;
+    background-color: transparent;
+    border-radius: 3px;
+    position: relative;
+    z-index: 10;
+}
