@@ -9,6 +9,10 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+function carousel(){
+	plusSlides(1);
+}
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -23,4 +27,5 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
+  setTimeout(carousel, 5000);
 }
