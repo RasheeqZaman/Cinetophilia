@@ -43,13 +43,46 @@ select {
   background-color: transparent;
   color: #444;
 }
-.box {
+.box_a {
   background-color: transparent;
   height: 300px;
   color: #000000;
   border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+
+.box_b {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+.box_c {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+.box_d {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+.box_e {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
 }
 .box_a h3
 {
@@ -60,11 +93,7 @@ select {
     padding: 15px;
 
 }
-.box table
-{
-	width: inherit;
-	height: inherit;
-}
+
 .box_b h3
 {
 	background-color:  red;
@@ -80,4 +109,63 @@ select {
 	height: 30px;
 	text-align: center;
     padding: 15px;
+}
+.box_d h3{
+	background-color:  powderblue;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+.box_e h3{
+	background-color:  green;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+.box_f h3{
+	background-color:  brown;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+li a:link {
+    color: #000000; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+li a:visited {
+	color: orange;
+    background-color: none;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+}
+ 
+li {
+  border-bottom: 1px solid #ccc;
+  width: inherit;
+  height: 35px;
+}
+ 
+li:last-child {
+  border: none;
 }
