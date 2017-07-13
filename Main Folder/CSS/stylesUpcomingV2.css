@@ -1,0 +1,46 @@
+
+img{
+			
+    border: 3px solid #B8312F;
+    border-radius: 50%;
+    width:  100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.6s ease;
+}
+
+img:hover
+{
+    width: 150px;
+    border-radius: 5%;
+}
+
+h2{
+  font-size: 50px;
+  padding: 15px 0px;
+  width: 50%;
+  font-family: NewDelicious, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+table
+{
+  width: 100%;
+  padding: 20px;
+}
+tr
+{
+   height: 100%;
+}
+td{
+  font-family: NewDelicious, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
+}
+th{
+	font-family: NewDelicious, sans-serif;
+  font-size: 25px;
+}
