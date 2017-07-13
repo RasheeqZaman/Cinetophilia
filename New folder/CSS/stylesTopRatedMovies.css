@@ -1,0 +1,171 @@
+body{
+	background-color: #f1f1f1;
+}
+table {
+    /*border-collapse: collapse;*/
+    width: 600px;
+}
+
+td, th {
+	padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.select_field {
+    background-color: #FFF;
+    display: inline-block;
+    position: relative;
+}
+.select_field:after {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    z-index: 5;
+ }
+ select option
+ {  
+ 	margin: 40px;
+    color: transparent;
+    text-shadow: #000;
+ }
+select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #77;
+    background-color: transparent;
+    border-radius: 3px;
+    position: relative;
+    z-index: 10;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 10px;
+  background-color: transparent;
+  color: #444;
+}
+.box_a {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+
+.box_b {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+.box_c {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+.box_d {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+.box_e {
+  background-color: transparent;
+  height: 300px;
+  color: #000000;
+  border-radius: 5px;
+  /*padding: 20px;*/
+  font-size: 100%;
+}
+.box_a h3
+{
+	background-color:  yellow;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+
+}
+
+.box_b h3
+{
+	background-color:  red;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+.box_c h3
+{
+    background-color:  blue;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+.box_d h3{
+	background-color:  powderblue;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+.box_e h3{
+	background-color:  green;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+.box_f h3{
+	background-color:  brown;
+	width: inherit;
+	height: 30px;
+	text-align: center;
+    padding: 15px;
+}
+li a:link {
+    color: #000000; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+li a:visited {
+	color: orange;
+    background-color: none;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0px;
+}
+ 
+li {
+  border-bottom: 1px solid #ccc;
+  width: inherit;
+  height: 35px;
+}
+ 
+li:last-child {
+  border: none;
+}
